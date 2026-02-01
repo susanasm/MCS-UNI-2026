@@ -1,5 +1,5 @@
 // 1. Bernaola Gayoso - César Raúl
-// int addition(int a, int b);
+int addition(int a, int b);
 
 // 2. Cuadros-Vargas Ernesto
 void intercambiar(int &a, int &b);

@@ -9,7 +9,10 @@ int main(){
     float f1, f2, f3;
 
 // 1. Bernaola Gayoso - César Raúl
-
+    std::cout << "Demo Bernaola Gayoso Cesar" << std::endl;
+    x = 10, y = 30;
+    r = addition(x, y);
+    std::cout << "la suma de x=" << x << " y=" << y << " es: " << r << "\n\n";
 
 // 2. Cuadros-Vargas Ernesto
     std::cout << "Demo Cuadros Vargas Ernesto" << std::endl;

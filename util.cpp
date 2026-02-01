@@ -2,6 +2,9 @@
 #include <cstdlib>
 
 // 1. Bernaola Gayoso - César Raúl
+int addition(int a, int b) { 
+    return a + b;
+}
 
 // 2. Cuadros-Vargas Ernesto
 void intercambiar(int &a, int &b){
