@@ -1,4 +1,5 @@
 #include <iostream> // cout
+#include <cstdlib>
 #include "util.h"
 
 // g++ main.cpp util.cpp -o main
@@ -28,6 +29,10 @@ int main(){
 
 // 6. Mallaupoma Cesar
 // genera un numero aleatorio
+    std::cout << "Demo Cesar Mallaupoma Orellana" << std::endl;
+    srand(1);
+    int aleatorio = generarNumAleatorio();
+        std::cout << "El numero aleatorio generado es "<< aleatorio  << "\n\n";
 
 // 7. Miranda Zarate Jorge Luis
 // factorial

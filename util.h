@@ -1,4 +1,3 @@
-
 // 1. Bernaola Gayoso - César Raúl
 // int addition(int a, int b);
 
@@ -16,6 +15,7 @@ void intercambiar(int &a, int &b);
 
 // 6. Mallaupoma Cesar
 // genera un numero aleatorio
+int generarNumAleatorio();
 
 // 7. Miranda Zarate Jorge Luis
 // factorial

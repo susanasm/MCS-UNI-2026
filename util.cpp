@@ -1,5 +1,5 @@
 #include "util.h"
-
+#include <cstdlib>
 
 // 1. Bernaola Gayoso - César Raúl
 
@@ -17,7 +17,9 @@ void intercambiar(int &a, int &b){
 // 5. López Sandoval, Heiner
 
 // 6. Mallaupoma Cesar
-
+int generarNumAleatorio(){
+    return rand() % 10;
+}
 
 // 7. Miranda Zarate Jorge Luis
 
