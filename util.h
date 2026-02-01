@@ -10,7 +10,7 @@ void intercambiar(int &a, int &b);
 
 // 4. Lopez Flores Royer Amed
 // multiplication
-
+int multiplicar(int &a, int &b);
 // 5. López Sandoval, Heiner
 // division
 

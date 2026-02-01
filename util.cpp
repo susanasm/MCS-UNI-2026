@@ -13,7 +13,9 @@ void intercambiar(int &a, int &b){
 // 3. Diaz Tapia Adderly
 
 // 4. Lopez Flores Royer Amed
-
+int multiplicar(int &a, int &b){
+    return a * b;
+}
 // 5. López Sandoval, Heiner
 
 // 6. Mallaupoma Cesar

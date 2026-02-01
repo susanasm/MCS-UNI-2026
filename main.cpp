@@ -22,7 +22,10 @@ int main(){
 
 // 4. Lopez Flores Royer Amed
 // multiplication
-
+    std::cout << "Demo Lopez Flores Royer Amed" << std::endl;
+    x = 6; y = 7;
+    r = multiplicar(x, y);
+    std::cout << "multiplicar(" << x << "," << y << ")=" << r << "\n\n";
 // 5. López Sandoval, Heiner
 // division
 
