@@ -19,6 +19,7 @@ using T1 = long;
 // 9. Segovia Giancarlo
 
 // 10. Suarez Maciel Susana Isabel.
+using FloatParam = long;
 
 // 11. Tellez Jhon
 

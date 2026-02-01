@@ -68,9 +68,8 @@ int fibonacci(int n){
 }
 
 // 10. Suarez Maciel Susana Isabel
-float average(int x, int y){
+float average(FloatParam x, FloatParam y){
     return (x + y)/2.0f;
-
 }
 
 // 11. Tellez Jhon

@@ -35,7 +35,7 @@ int fibonacci(int n);
 
 // 10. Suarez Maciel Susana Isabel
 // average()
-float average(int x, int y);
+float average(FloatParam x, FloatParam y);
 
 // 11. Tellez Jhon
 // sumar 10 numeros naturales
