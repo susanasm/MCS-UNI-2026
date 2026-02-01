@@ -5,8 +5,8 @@
 // g++ main.cpp util.cpp -o main
 int main(){
     std::cout << "MCS-2026-PM\n";
-    long x = 20, y = 45, r, exponent;
-    float f1, f2, f3, base, result;
+    long x = 20, y = 45, r;
+    float f1, f2, f3;
     double d1, d2;
 
 // 1. Bernaola Gayoso - César Raúl
@@ -104,8 +104,9 @@ int main(){
   
 // 14. Vinatea Chávez Camilo Jorge
     std::cout << "Demo Vinatea Camilo" << std::endl;
-    base = 3.1415; exponent = 3;
-    result = power(base, exponent);
+    T14 base = 3.1415; 
+    T1 exponent = 3;
+    T14 result = power(base, exponent);
     std::cout << base << " ^ " << exponent << " = " << result << "\n\n";
     
     return 0;

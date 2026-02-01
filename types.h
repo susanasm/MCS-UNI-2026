@@ -27,5 +27,6 @@ using TH=int;
 // 13. Vilca Aguilar Luis
 
 // 14. Vinatea Chávez Camilo Jorge
+using T14 = float;
 
 
