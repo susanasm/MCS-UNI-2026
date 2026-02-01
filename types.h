@@ -7,6 +7,7 @@ using T1 = long;
 // 3. Diaz Tapia Adderly
 
 // 4. Lopez Flores Royer Amed
+using MultParam = float;
 
 // 5. López Sandoval, Heiner
 using T5 = float;

@@ -12,7 +12,7 @@ double subtraction (double n, double m);
 
 // 4. Lopez Flores Royer Amed
 // multiplication
-int multiplicar(int &a, int &b);
+MultParam multiplicar(MultParam &a, MultParam &b);
 // 5. López Sandoval, Heiner
 // division
 float division(float &f1, float &f2);

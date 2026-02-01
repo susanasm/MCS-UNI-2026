@@ -30,9 +30,9 @@ int main(){
 // 4. Lopez Flores Royer Amed
 // multiplication
     std::cout << "Demo Lopez Flores Royer Amed" << std::endl;
-    x = 6; y = 7;
-    r = multiplicar(x, y);
-    std::cout << "multiplicar(" << x << "," << y << ")=" << r << "\n\n";
+    MultParam mpx = 6.1, mpy = 7.2;
+    MultParam mpr = multiplicar(mpx, mpy);
+    std::cout << "multiplicar(" << mpx << "," << mpy << ")=" << mpr << "\n\n";
 // 5. López Sandoval, Heiner
 // division
    std::cout << "Demo Lopez Sandoval Heiner" << std::endl;

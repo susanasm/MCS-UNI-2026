@@ -23,7 +23,7 @@ double subtraction (double n, double m){
     return n-m;
 }
 // 4. Lopez Flores Royer Amed
-int multiplicar(int &a, int &b){
+MultParam multiplicar(MultParam &a, MultParam &b){
     return a * b;
 }
 // 5. López Sandoval, Heiner
