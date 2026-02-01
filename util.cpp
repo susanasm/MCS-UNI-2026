@@ -3,13 +3,17 @@
 #include "util.h"
 
 // 1. Bernaola Gayoso - César Raúl
-int addition(int a, int b) { 
+long addition(long a, long b) { 
+    return a + b;
+}
+
+float addition(float a, float b){
     return a + b;
 }
 
 // 2. Cuadros-Vargas Ernesto
-void intercambiar(int &a, int &b){
-    int tmp = a;
+void intercambiar(T1 &a, T1 &b){
+    T1 tmp = a;
     a = b;
     b = tmp;
 }

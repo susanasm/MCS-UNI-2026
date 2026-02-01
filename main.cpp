@@ -5,8 +5,9 @@
 // g++ main.cpp util.cpp -o main
 int main(){
     std::cout << "MCS-2026-PM\n";
-    int x = 20, y = 45, r, exponent;
+    long x = 20, y = 45, r, exponent;
     float f1, f2, f3, base, result;
+    double d1, d2;
 
 // 1. Bernaola Gayoso - César Raúl
     std::cout << "Demo Bernaola Gayoso Cesar" << std::endl;
@@ -16,15 +17,15 @@ int main(){
 
 // 2. Cuadros-Vargas Ernesto
     std::cout << "Demo Cuadros Vargas Ernesto" << std::endl;
-    x = 20, y = 45;
-    intercambiar(x, y);
-    std::cout << "x=" << x << " y=" << y << "\n\n";
+    T1 E1 = 20, E2 = 45;
+    intercambiar(E1, E2);
+    std::cout << "x=" << E1 << " y=" << E2 << "\n\n";
 
 // 3. Diaz Tapia Adderly
 // substraction
     std::cout << "Demo Adderly Díaz Tapia" << std::endl;
-    x = 10.1; y=7.2;
-    std::cout<<"La resta entre X e Y es: " << subtraction(x,y) << "\n\n";
+    d1 = 10.1; d2=7.2;
+    std::cout<<"La resta entre X e Y es: " << subtraction(d1, d2) << "\n\n";
 
 // 4. Lopez Flores Royer Amed
 // multiplication
@@ -49,7 +50,7 @@ int main(){
 
 // 8. Riveros Guevara
 // IsPrime
-    std::cout << "Demo Cuadros Vargas Ernesto" << std::endl;
+    std::cout << "Demo Riveros Guevara Hipolito" << std::endl;
     int n = 29;
     if (esPrimo(n))
         std::cout << n << " es primo \n\n";
@@ -72,9 +73,14 @@ int main(){
 // 11. Tellez Jhon
 // sumar 10 numeros naturales
 
-int suma = 0;
+    int suma = 0;
     std::cout<<"Ingrese el numero 10";
+    // TODO: no ingresar valores
     std::cin>>x;
+    // TODO: verificar la comparacion
+    // TODO: cambiar a ++i
+    // TODO: como solo es 1 instruccion, no necesitas {}
+    // TODO: suma += i;
     for (int i =0;i>=x;i++)
     {
         suma = suma + i;
