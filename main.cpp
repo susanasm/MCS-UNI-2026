@@ -1,5 +1,4 @@
 #include <iostream> // cout
-#include <cmath>    // sqrt
 #include "util.h"
 
 // g++ main.cpp util.cpp -o main
@@ -35,18 +34,13 @@ int main(){
 
 // 8. Riveros Guevara
 // IsPrime
+ std::cout << "Demo Cuadros Vargas Ernesto" << std::endl;
+    int n = 29;
+    if (esPrimo(n))
+        std::cout << n << " es primo\n\n";
+    else
+        std::cout << n << " no es primo\n\n";
 
-bool esPrimo(int n) {
-    if (n <= 1) return false;
-    if (n == 2) return true;
-    if (n % 2 == 0) return false;
-
-    for (int i = 3; i <= sqrt(n); i += 2) {
-        if (n % i == 0)
-            return false;
-    }
-    return true;
-}
 
 // 9. Segovia Giancarlo
 // fibonacci
