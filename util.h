@@ -1,7 +1,10 @@
 #include "types.h"
 
 // 1. Bernaola Gayoso - César Raúl
-IntParam addition(IntParam a, IntParam b);
+template <typename T>
+T addition(T a, T b) { 
+    return a + b;
+}
 
 // 2. Cuadros-Vargas Ernesto
 template <typename T>

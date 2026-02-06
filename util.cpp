@@ -3,9 +3,6 @@
 #include "util.h"
 
 // 1. Bernaola Gayoso - César Raúl
-IntParam addition(IntParam a, IntParam b) { 
-    return a + b;
-}
 
 // 2. Cuadros-Vargas Ernesto
 // Los template se implementan en el .h, no en el .cpp
