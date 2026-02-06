@@ -22,6 +22,14 @@ int main(){
     intercambiar(E1, E2);
     std::cout << "x=" << E1 << " y=" << E2 << "\n\n";
 
+    T2 a = 5.5, b = 10.2;
+    intercambiar(a, b);
+    std::cout << "a=" << a << " b=" << b << "\n";
+
+    string str1 = "MCS", str2 = "UNI";
+    intercambiar(str1, str2);
+    std::cout << "str1=" << str1 << " str2=" << str2 << "\n";
+
 // 3. Diaz Tapia Adderly
 // substraction
     std::cout << "Demo Adderly Díaz Tapia" << std::endl;

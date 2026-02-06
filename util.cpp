@@ -8,11 +8,7 @@ IntParam addition(IntParam a, IntParam b) {
 }
 
 // 2. Cuadros-Vargas Ernesto
-void intercambiar(T1 &a, T1 &b){
-    T1 tmp = a;
-    a = b;
-    b = tmp;
-}
+// Los template se implementan en el .h, no en el .cpp
 
 // 3. Diaz Tapia Adderly
 Ts subtraction (Ts n, Ts m){

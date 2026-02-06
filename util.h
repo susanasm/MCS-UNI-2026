@@ -4,7 +4,12 @@
 IntParam addition(IntParam a, IntParam b);
 
 // 2. Cuadros-Vargas Ernesto
-void intercambiar(T1 &a, T1 &b);
+template <typename T>
+void intercambiar(T &a, T &b){
+    T tmp = a;
+    a     = b;
+    b     = tmp;
+}
 
 // 3. Diaz Tapia Adderly
 double subtraction (Ts n, Ts m);

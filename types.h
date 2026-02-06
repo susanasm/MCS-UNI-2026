@@ -3,9 +3,11 @@ using IntParam = int;
 
 // 2. Cuadros-Vargas Ernesto (cambio de Er)
 using T1 = long;
+using T2 = float;
 
 // 3. Diaz Tapia Adderly
 using Ts= double;
+
 // 4. Lopez Flores Royer Amed
 using MultParam = float;
 
