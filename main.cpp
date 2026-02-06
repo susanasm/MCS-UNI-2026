@@ -27,8 +27,8 @@ int main(){
     std::cout << "a=" << a << " b=" << b << "\n";
 
     string str1 = "MCS", str2 = "UNI";
-    //intercambiar(str1, str2);
-    //std::cout << "str1=" << str1 << " str2=" << str2 << "\n";
+    intercambiar(str1, str2);
+    std::cout << "str1=" << str1 << " str2=" << str2 << "\n";
 
 // 3. Diaz Tapia Adderly
 // substraction
