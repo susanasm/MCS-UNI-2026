@@ -97,22 +97,22 @@ int main(){
 
 // 11. Tellez Jhon
 // sumar 10 numeros naturales
-
-    int suma = 0;
-    std::cout<<"Ingrese el numero 10";
+  
+    std::cout << "Demo Jhon Tellez Heredia" << std::endl;
+    
     // TODO: no ingresar valores
     x = 10;
     // TODO: verificar la comparacion
     // TODO: cambiar a ++i
     // TODO: como solo es 1 instruccion, no necesitas {}
     // TODO: suma += i;
-    for (int i =0;i>=x;i++)
-    {
-        suma = suma + i;
-        
-    }
-    std::cout<<"La suma es: "<<suma<< "\n\n";
+std::cout<<"Ingrese el numero 10: ";
+int x;
+std::cin>>x;
 
+int resultado = SumaPrimero10(x);
+std::cout<<"suma: "<<resultado<<std::endl;
+    }
 
 // 12. Valcarcel Julian
 

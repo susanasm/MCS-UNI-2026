@@ -29,6 +29,8 @@ using ParamDouble = double;
 
 // 11. Tellez Jhon
 
+using T11 0 int;
+
 // 12. Valcarcel Julian
 
 // 13. Vilca Aguilar Luis

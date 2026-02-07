@@ -83,7 +83,8 @@ T average(const T& a, const T& b){
 // 11. Tellez Jhon
 // sumar 10 numeros naturales
 
-int numero( int n);
+
+int numero( int x);
 
 // 12. Valcarcel Julian
 // float round(float f, int n)
