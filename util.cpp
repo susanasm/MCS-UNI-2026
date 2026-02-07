@@ -62,7 +62,7 @@ int fibonacci(int n){
     for(T1 i = 0; i < exponent; ++i)
         result *= base;
     return result;
-    
+
 }*/
 
 void DemoInicial(){
@@ -131,11 +131,8 @@ void DemoInicial(){
 
 // 9. Segovia Giancarlo
 // fibonacci
-    {
-    std::cout << "Demo Giancarlo Segovia" << std::endl;
-    x = 6;
-    std::cout << "Fibonacci de " << x << " es " << fibonacci(x) << "\n\n";
-    }
+    DemoInicialSegoviaGiancarlo();
+
 // 10. Suarez Maciel Susana Isabel
 // average()
     {
@@ -148,7 +145,7 @@ void DemoInicial(){
 // sumar 10 numeros naturales
     {
     std::cout << "Demo Jhon Tellez Heredia" << std::endl;
-    
+
     // TODO: no ingresar valores
     x = 10;
     // TODO: verificar la comparacion
@@ -177,12 +174,12 @@ void DemoInicial(){
     {
     std::cout << "Demo Vinatea Camilo" << std::endl;
 
-    T2 base = 3.1415; 
+    T2 base = 3.1415;
     T1 exponent = 3;
     T2 result = power(base, exponent);
     std::cout << base << " ^ " << exponent << " = " << result << "\n\n";
-    
-    T1 base2 = 6; 
+
+    T1 base2 = 6;
     T1 exponent2 = 4;
     T1 result2 = power(base2, exponent2);
     std::cout << base2 << " ^ " << exponent2 << " = " << result2 << "\n\n";
@@ -221,6 +218,12 @@ void DemoInicialCuadrosVargas(){
 // 8. Riveros Guevara
 
 // 9. Segovia Giancarlo
+void DemoInicialSegoviaGiancarlo() {
+    int x;
+    std::cout << "Demo Giancarlo Segovia" << std::endl;
+    x = 6;
+    std::cout << "Fibonacci de " << x << " es " << fibonacci(x) << "\n\n";
+}
 
 // 10. Suarez Maciel Susana Isabel.
 
@@ -230,4 +233,4 @@ void DemoInicialCuadrosVargas(){
 
 // 13. Vilca Aguilar Luis
 
-// 14. Vinatea Chávez Camilo Jorge  
+// 14. Vinatea Chávez Camilo Jorge
