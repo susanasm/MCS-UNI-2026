@@ -3,3 +3,5 @@ main
 test.cpp
 a
 *.o
+*.obj
+*.so
