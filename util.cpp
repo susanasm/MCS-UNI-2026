@@ -70,14 +70,7 @@ void DemoInicial(){
     float f1, f2, f3;
 
 // 1. Bernaola Gayoso - César Raúl
-    std::cout << "Demo Bernaola Gayoso Cesar" << std::endl;
-    IntParam p1 = 10, p2 = 30;
-    IntParam p3 = addition(p1, p2);
-    std::cout << "la suma de x=" << p1 << " y=" << p2 << " es: " << p3 << "\n\n";
-
-    T2 q1 = 5.5, q2 = 10.2;
-    T2 q3 = addition(q1, q2);
-    std::cout << "la suma de x=" << q1 << " y=" << q2 << " es: " << q3 << "\n\n";
+    DemoInicialBernaolaGayosoCesar();
 
 // 2. Cuadros-Vargas Ernesto
     DemoInicialCuadrosVargas();
@@ -181,6 +174,16 @@ void DemoInicial(){
 }
 
 // 1. Bernaola Gayoso - César Raúl
+void DemoInicialBernaolaGayosoCesar() {
+    std::cout << "Demo Bernaola Gayoso Cesar" << std::endl;
+    IntParam p1 = 10, p2 = 30;
+    IntParam p3 = addition(p1, p2);
+    std::cout << "la suma de x=" << p1 << " y=" << p2 << " es: " << p3 << "\n\n";
+
+    T2 q1 = 5.5, q2 = 10.2;
+    T2 q3 = addition(q1, q2);
+    std::cout << "la suma de x=" << q1 << " y=" << q2 << " es: " << q3 << "\n\n";
+}
 
 // 2. Cuadros-Vargas Ernesto
 void DemoInicialCuadrosVargas(){
