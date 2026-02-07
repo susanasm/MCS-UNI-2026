@@ -36,7 +36,7 @@ T multiplicar(T &a, T &b){
 // division
 template <typename T5>
 T5 division(T5 &a, T5 &b){
-    return(a*b) ;
+    return(a/b) ;
 }
 
 // 6. Mallaupoma Cesar
