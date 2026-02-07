@@ -118,6 +118,7 @@ X power(X base, Y exponent){
 void DemoInicial();
 
 // 1. Bernaola Gayoso - César Raúl
+void DemoInicialBernaolaGayosoCesar();
 
 // 2. Cuadros-Vargas Ernesto
 void DemoInicialCuadrosVargas();
