@@ -87,9 +87,13 @@ T average(const T& a, const T& b){
 
 // 11. Tellez Jhon
 // sumar 10 numeros naturales
-
-
-int numero( int x);
+template <typename T>
+T SumaPrimero10(T x){
+    T suma = 0;
+    for(T i = 1; i <= x; ++i)
+        suma += i;
+    return suma;
+}
 
 // 12. Valcarcel Julian
 // float round(float f, int n)
