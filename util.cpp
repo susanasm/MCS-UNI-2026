@@ -170,6 +170,8 @@ void DemoInicialCuadrosVargas(){
     std::cout << "str1=" << str1 << " str2=" << str2 << "\n";
 }
 
+
+
 // 3. Diaz Tapia Adderly
 DemoInicialDiazTapia(){
     std::cout << "Demo Adderly Díaz Tapia" << std::endl;
@@ -220,7 +222,7 @@ void DemoInicialRiverosGuevara(){
 
 
 // 11. Tellez Jhon
-
+void DemoInicialJhoinTellez();
 // 12. Valcarcel Julian
 
 // 13. Vilca Aguilar Luis

@@ -143,6 +143,7 @@ void DemoInicialRiverosGuevara();
 void DemoInicialSusana();
 
 // 11. Tellez Jhon
+void DemoInicialJhoinTellez();
 
 // 12. Valcarcel Julian
 
