@@ -34,7 +34,10 @@ T multiplicar(T &a, T &b){
 }
 // 5. López Sandoval, Heiner
 // division
-float division(float &f1, float &f2);
+template <typename T5>
+T5 division(T5 &a, T5 &b){
+    return(a/b) ;
+}
 
 // 6. Mallaupoma Cesar
 // genera un numero aleatorio
@@ -118,35 +121,40 @@ X power(X base, Y exponent){
 void DemoInicial();
 
 // 1. Bernaola Gayoso - César Raúl
+void DemoInicialBernaolaGayosoCesar();
 
 // 2. Cuadros-Vargas Ernesto
 void DemoInicialCuadrosVargas();
 
 // 3. Diaz Tapia Adderly
-
+Void DemoInicialDiazTapia();
 // 4. Lopez Flores Royer Amed
-
+void DemoInicialLopezFloresRoyerAmed();
 // 5. López Sandoval, Heiner
-
+void DemoInicialLopezSandoval();
 // 6. Mallaupoma Cesar
 
 // 7. Miranda Zarate Jorge Luis
+void DemoInicialMirandaZarate();
 
 // 8. Riveros Guevara
-
+void DemoInicialRiverosGuevara();
 // 9. Segovia Giancarlo
 void DemoInicialSegoviaGiancarlo();
 
 // 10. Suarez Maciel Susana Isabel.
+void DemoInicialSusana();
 
 // 11. Tellez Jhon
+void DemoInicialJhoinTellez();
 
 // 12. Valcarcel Julian
 
 // 13. Vilca Aguilar Luis
+void DemoInicialVilcaAguilar();
 
-// 14. Vinatea Chávez Camilo Jorge
-
+// 14. Vinatea Chávez Camilo Jorge  
+void DemoInicialCamiloVinatea();
 
 
 #endif // __UTIL_H__
